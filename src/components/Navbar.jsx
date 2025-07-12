@@ -10,7 +10,7 @@ export const Navbar = () => {
 
       {/*} Logo on NavBar TopLeft {*/}
       <Link to="/" className="title">
-        Website
+        Shea Onstott
       </Link>
       
       {/*} Hamburger Icon {*/}
@@ -22,6 +22,9 @@ export const Navbar = () => {
 
       {/*} Links in NavBar TopRight {*/}
       <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <NavLink to="/resume">Resume</NavLink>
+        </li>
         <li>
           <NavLink to="/about">About</NavLink>
         </li>
