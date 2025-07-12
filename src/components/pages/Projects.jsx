@@ -3,7 +3,7 @@ import React from "react";
 export const Projects = () => {
   return (
     <>
-      <h1>Projects</h1>
+      <h1>Projects Test</h1>
       <div>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt
         itaque, perferendis necessitatibus corrupti ea magni voluptatibus est
