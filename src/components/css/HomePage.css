@@ -13,6 +13,18 @@
 	gap: 30px;
 }
 
+/* Blinking cursor animation */
+.content h1 {
+	border-right: 7px solid pink;
+	display: inline-block; /* Schrinks width for blinking cursor */
+	animation: cursor .4s step-end infinite alternate;
+}
+
+/* Blinking cursor animation */
+@keyframes cursor {
+	50% { border-color: transparent;}
+}
+
 .photo {
 	width: 50%;
 	text-align: center;
