@@ -1,0 +1,16 @@
+.about-container {
+    background-image: url(/public/images/pic8.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.about-container h1 {
+    color: white;
+    font-weight: 200;
+    font-size: 60px;
+    align-items: center;
+    padding-left: 20%;
+}

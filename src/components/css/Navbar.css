@@ -1,5 +1,6 @@
 .active{
-    background-color: #1d4ed8;
+    background-color: black;
+    border: 2px solid white;
 }
 
 nav {
@@ -10,12 +11,15 @@ nav {
     color: white;
     position: sticky;
     top: 0;
+    height: 70px;
 }
 
 nav .title {
+    margin-top: 20px;
+    margin-bottom: auto;
+    padding-left: 1rem;
     font-size: 1.5rem;
-    margin: 1rem;
-    font-weight: bold;
+    font-weight: 300;
     text-decoration: none;
     color: white;
 }
@@ -35,32 +39,33 @@ nav ul li a {
     padding: 0.5rem;
     margin: 0 0.5rem;
     border-radius: 0.5rem;
+    font-weight: 200;
 }
 
 nav ul li a:not(.active):hover {
     background-color:#172554 ;
 }
 
+/* Hamburger container */
 nav .menu {
     display: none;
     position: absolute;
-    top: 0.75rem;
-    right: 0.5rem;
-    flex-direction: column;
+    top: .7rem;
+    right: 1rem;
     justify-content: space-between;
-    width: 2.25rem;
     height: 2rem;
+    cursor: pointer;
 }
 
+/* Hamburger icon individual bars */
 nav .menu span {
     height: 0.4rem;
     width: 100%;
     background-color: white;
     border-radius: 0.1rem;
-    cursor: pointer;
 }
 
-
+/* Style for smaller screens */
 @media (max-width: 700px) {
     nav .menu {
         display: flex;
@@ -80,6 +85,8 @@ nav .menu span {
 
     nav ul.open {
         display: flex;
+        background-color: black;
+        margin-top: 20px;
     }
 
     nav ul li {

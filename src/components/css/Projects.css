@@ -1,0 +1,15 @@
+.projects-container {
+    background-image: url(/public/images/pic2.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.projects-container h1 {
+    color: white;
+    font-weight: 200;
+    font-size: 60px;
+    padding-left: 38%;
+}
