@@ -1,5 +1,5 @@
-.projects-container {
-    background-image: url(/public/images/pic2.jpg);
+.resume-container {
+    background-image: url(/public/images/stairs_background.jpg);
     height: 93%;
     background-position: center;
     background-size: cover;
@@ -8,8 +8,8 @@
     justify-content: center;
 }
 
-.projects-container h1 {
-    color: white;
+.resume-container h1 {
+    color: black;
     font-weight: 200;
     font-size: 50px;
 }

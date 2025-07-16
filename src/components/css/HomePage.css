@@ -17,7 +17,7 @@
 .content h1 {
 	border-right: 7px solid pink;
 	display: inline-block; /* Schrinks width for blinking cursor */
-	animation: cursor .4s step-end infinite alternate;
+	animation: cursor .7s step-end infinite alternate;
 }
 
 /* Blinking cursor animation */
@@ -47,10 +47,11 @@
 .content-list {
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 15px;
 	margin-top: 10px;
+	color: black;	
 }
 
 .content-list p {
-    font-size: Small;
+    font-size: 12px;
 }
