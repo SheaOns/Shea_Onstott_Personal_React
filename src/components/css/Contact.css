@@ -1,0 +1,22 @@
+.contact-container {
+    background-image: url(/public/images/penpaper_background.jpg);
+    height: 93%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-container h1 {
+    color: black;
+    font-weight: 200;
+    font-size: 50px;
+    padding-right: 40px;
+}
+
+.contact-container h1 .soon {
+    color: white;
+    font-weight: 200;
+    font-size: 50px;
+}
