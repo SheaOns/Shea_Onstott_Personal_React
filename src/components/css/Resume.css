@@ -1,3 +1,78 @@
+.back {
+    height: 100%;
+}
+
+.flex-container {
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    margin: auto;
+    max-width: 1000px;
+    min-width: 500px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+
+}
+
+.flex-container .column-1 {
+    width: 80%;
+    padding-left: 12%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.flex-container .column-2 {
+    width: 20%;
+    padding-top: 5%;
+    text-align: center;
+    min-width: 150px;
+}
+
+.column-2 ul li {
+    list-style: none;
+}
+
+.column-1 .section-heading {
+    font-size: 25px;;
+    color: white;
+    background-color: #142a47;
+    text-align: center;
+}
+
+.company-position {
+   font-size: 18px
+}
+
+.dates {
+    font-size: 16px;
+}
+
+.job-description {
+    font-size: 14px;
+}
+
+.column-2 h1 {
+    font-size: 25px;;
+    color: #0e53ac
+}
+
+.column-2 ul {
+    margin-top: 15px;
+}
+
+.column-2 ul li{
+    text-align: left;
+    padding-left: 23%;
+    padding-top: 8px;
+    font-size: small;
+}
+
+.job-title {
+    color: #3b78c8
+}
+
+/*
 .resume-container {
     background-image: url(/public/images/stairs_background.jpg);
     height: 93%;
@@ -13,3 +88,4 @@
     font-weight: 200;
     font-size: 50px;
 }
+    */
