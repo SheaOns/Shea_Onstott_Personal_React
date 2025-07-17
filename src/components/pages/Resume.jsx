@@ -47,6 +47,21 @@ export const Resume = () => {
             <p className="job-description">- Diagnose and correct any bugs within software.</p>
             <br/>
             
+            <h2 className="company-position"><span className="job-title">Aristocrat Technologies</span> // Field Service Technician</h2>
+            <h3 className="dates">01/2018 - 19/2020</h3>
+            <p className="job-description">- Responsible for on-site installation, repair, and maintenance of all Aristocrat gaming machines and equipment.</p>
+            <p className="job-description">- Troubleshoot and resolve problems including complex system faults and performing repair work as required. </p>
+            <p className="job-description">- Update, install, repair software on gaming machines in compliance with state laws. Work with regulatory staff to ensure all devices are up to date.</p>
+            <br/>
+
+            <h2 className="company-position"><span className="job-title">Kansas Star Casino</span> // Slot Manager</h2>
+            <h3 className="dates">05/2011 - 01/2018</h3>
+            <p className="job-description">- Plan, organize and direct installation of gaming machines..</p>
+            <p className="job-description">- Manage a technical team to maintain all systems and equipment. </p>
+            <p className="job-description">- Coordinate with 3rd party contractors on large scale installations and
+            construction projects.
+            </p>
+            <br/>
 
         </div>
         <div className="column-2">
