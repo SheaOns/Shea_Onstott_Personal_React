@@ -3,14 +3,14 @@
 }
 
 .flex-container {
-    width: 80%;
+    width: 90%;
     justify-content: center;
     display: flex;
     margin: auto;
     max-width: 1000px;
     min-width: 500px;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;;
 
 }
 
