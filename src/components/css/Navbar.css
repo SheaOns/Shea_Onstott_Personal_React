@@ -87,7 +87,7 @@ nav .menu span {
     nav ul.open {
         display: flex;
         background-color: black;
-        margin-top: 20px;
+        margin-top: 19px;
     }
 
     nav ul li {

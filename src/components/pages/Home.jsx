@@ -1,11 +1,12 @@
 import React from "react";
 import "../css/HomePage.css";
+import logo from "."
 
 export const Home = () => {
 	return (
 		<div className="container">
 			<div className="photo">
-				<img src="/public/images/pic1.jpg" alt="Photo"></img>
+				<img src="/static/images/pic1.jpg" alt="Photo"></img>
 			</div>
 			<div className="content">
 				<h1>Hi, there.</h1>
